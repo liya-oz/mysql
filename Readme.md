@@ -99,8 +99,8 @@ require compiling, and is 100% MIT licensed.
 Here is an example on how to use it:
 
 ```js
-var mysql      = require('mysql');
-var connection = mysql.createConnection({
+import mysql from 'mysql';
+const connection = mysql.createConnection({
   host     : 'localhost',
   user     : 'me',
   password : 'secret',
